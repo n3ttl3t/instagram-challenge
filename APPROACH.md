@@ -104,3 +104,17 @@ heroku authorizations:create
  ```
 and added it to the config vars on Heroku.
 Still not working so I changed the yml to not use the orb.
+ - Got the error:
+```
+Error calling workflow: 'build-deploy'
+# Cannot find a definition for job named ...
+```
+so I installed the CircleCI cli:
+```
+brew install circleci
+```
+so I could run:
+```
+circleci config validate
+```
+This let me make small changes and quickly test if the yml was valid. I removed the build job but kept the deploy job and it was valid, so I pushed.
