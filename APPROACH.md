@@ -118,3 +118,4 @@ so I could run:
 circleci config validate
 ```
 This let me make small changes and quickly test if the yml was valid. I removed the build job but kept the deploy job and it was valid, so I pushed.
+ - Still having authentication errors
