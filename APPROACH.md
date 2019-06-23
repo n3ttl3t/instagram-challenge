@@ -124,3 +124,9 @@ This let me make small changes and quickly test if the yml was valid. I removed 
    - deleted any references to travis
    - disabled CI check in Heroku
  - Changed to use pg instead of sqlite
+ - Continuing error:
+ ```
+ Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
+ 			Detected buildpacks: Ruby,Node.js
+ ```
+ 
