@@ -83,3 +83,4 @@ same error. Couldn't get past it after 20 mins of googling, adding files ect, so
  - Getting to this point had taken longer than expected, so I had to change the timers on the Trello cards.
  - Connected Github to CircleCI
  - Created .circleci folder, a config.yml file inside that and copied the provided code on the CircleCI project setup page.
+ - Pushed the changes and started the build on CircleCI
