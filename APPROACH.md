@@ -167,3 +167,10 @@ This let me make small changes and quickly test if the yml was valid. I removed 
   the bundle, perhaps you meant to add it to your Gemfile?
   ```
  So I did, and now it works locally.
+ - Got back to the fun repetitive bundler error:
+ ```
+ Untracked files:
+   (use "git add <file>..." to include in what will be committed)
+ 	vendor/bundle/
+ ```
+ so added skip cleanup to the yml.
