@@ -11,4 +11,4 @@ deploy:
   api_key:
     secure: 07ad58f2-a88b-4a7d-aa30-2dbdb9d47183
   on:
-    repo: n3ttl3t/instagram-challenge-n3ttlt3
+    repo: n3ttl3t/instagram-challenge-n3ttl3t
