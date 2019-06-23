@@ -84,3 +84,18 @@ same error. Couldn't get past it after 20 mins of googling, adding files ect, so
  - Connected Github to CircleCI
  - Created .circleci folder, a config.yml file inside that and copied the provided code on the CircleCI project setup page.
  - Pushed the changes and started the build on CircleCI
+ - Added a new project on Heroku, linked it to the github repo, and add the Heroku orb to the CircleCI yml.
+ - Got this error in CircleCI:
+ ```
+remote: !	WARNING:
+remote: !	Do not authenticate with username and password using git.
+remote: !	Run `heroku login` to update your credentials, then retry the git command.
+remote: !	See documentation for details: https://devcenter.heroku.com/articles/git#http-git-authentication
+fatal: Authentication failed for 'https://heroku:@git.heroku.com/.git/'
+Exited with code 128
+ ```
+ - So I logged in with:
+ ```
+heroku login
+ ```
+ and tried again.
