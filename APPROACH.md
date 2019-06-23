@@ -120,7 +120,7 @@ circleci config validate
 This let me make small changes and quickly test if the yml was valid. I removed the build job but kept the deploy job and it was valid, so I pushed.
  - Still having authentication errors, tried following the docs and googling but nothing worked, so switched to Travis so I can follow the instructions I wrote on the team project:
  https://medium.com/p/7f13fefd28b6
- - After being stuck on CICD for hours, decided to cut it out.
+ - After being stuck on CI for hours, decided to cut it out.
    - deleted any references to travis
    - disabled CI check in Heroku
  - Changed to use pg instead of sqlite
@@ -150,7 +150,10 @@ This let me make small changes and quickly test if the yml was valid. I removed 
  Done installing documentation for bundler after 5 seconds
  1 gem installed
  Makerss-MacBook-Pro:instagram-challenge student$ bundler -v
-
  Bundler version 2.0.2
  ```
- so I tried changing it manually in the gem lock file.
+ So I tried changing it manually in the gem lock file, which worked, (which makes this whole thing seem janky and stupid) and it deployed to Heroku, but the app isn't running.
+ - May as well try and reincorporate Travis now, since the errors were the same when I was using it (they were actually to do with Heroku) and now they are solved. I hope.
+ - Included Travis gem
+ - Ran bundle
+ - Initialised Travis
