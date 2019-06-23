@@ -141,4 +141,16 @@ This let me make small changes and quickly test if the yml was valid. I removed 
  ```
  - Error persisting, not getting anywhere.
  - Found a json file, could be to do with the buildpacks confliction, deleted it.
- - Noticed error references ruby 2.5.0 but I'm specifyin 2.6.0, so changed it with rvm and in the gemfile and ran bundle yet again.
+ - Noticed error references ruby 2.5.0 but I'm specifying 2.6.0, so changed it with rvm and in the gemfile and ran bundle yet again.
+ - Still not working and googling the errors isn't helping. The official docs suggest using bundler 2.0.1 but the terminal commands won't set it to that:
+ ```
+ Makerss-MacBook-Pro:instagram-challenge student$ gem install bundler -v 2.0.1
+ Successfully installed bundler-2.0.1
+ Parsing documentation for bundler-2.0.1
+ Done installing documentation for bundler after 5 seconds
+ 1 gem installed
+ Makerss-MacBook-Pro:instagram-challenge student$ bundler -v
+
+ Bundler version 2.0.2
+ ```
+ so I tried changing it manually in the gem lock file.
