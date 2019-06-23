@@ -174,4 +174,5 @@ This let me make small changes and quickly test if the yml was valid. I removed 
  	vendor/bundle/
  ```
  so added skip cleanup to the yml. This now deploys but the app doesn't run as it does locally, it just says the page doesn't exist.
- - In a test repo I thought was identical to this one, the deployed app has the same. I checked that and there were some lines about spring in the bin/rails and bin/rake files that weren't in it, so I deleted those.
+ - In a test repo I thought was identical to this one, the deployed app has the same landing page as when racking up. I checked that and there were some lines about spring in the bin/rails and bin/rake files that weren't in it, so I deleted those.
+ - It still doesn't work, and I don't understand why, and I feel like I've wasted around eight hours (I will timestamp this process in the future) trying to set up a pointless project I didn't get to develop and didn't learn anything from and that it is too hard and I can't do it.
