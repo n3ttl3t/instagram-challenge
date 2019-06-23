@@ -98,4 +98,8 @@ Exited with code 128
  ```
 heroku login
  ```
- and tried again.
+ and tried again. I got the same error, so I generated an API_KEY with:
+ ```
+heroku authorizations:create
+ ```
+and added it to the config vars on Heroku.
