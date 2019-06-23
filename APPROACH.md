@@ -129,8 +129,15 @@ This let me make small changes and quickly test if the yml was valid. I removed 
  Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
  			Detected buildpacks: Ruby,Node.js
  ```
- - Ran
+ - New error:
+ ```
+ There was an error parsing your Gemfile, we cannot continue
+ !     /app/tmp/buildpacks/b7af5642714be4eddaa5f35e2b4c36176b839b4abcd9bfe57ee71c358d71152b4fd2cf925c5b6e6816adee359c4f0f966b663a7f8649b0729509d510091abc07/vendor/ruby/heroku-18/lib/ruby/2.5.0/rubygems.rb:289:in `find_spec_for_exe': can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)
+ ```
+ - Searched it and was advised to run
  ```
  gem update --system
  bundle install
  ```
+ - Error persisting, not getting anywhere.
+ - Found a json file, could be to do with the buildpacks confliction, deleted it.
