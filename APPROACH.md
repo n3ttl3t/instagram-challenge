@@ -141,3 +141,4 @@ This let me make small changes and quickly test if the yml was valid. I removed 
  ```
  - Error persisting, not getting anywhere.
  - Found a json file, could be to do with the buildpacks confliction, deleted it.
+ - Noticed error references ruby 2.5.0 but I'm specifyin 2.6.0, so changed it with rvm and in the gemfile and ran bundle yet again.
