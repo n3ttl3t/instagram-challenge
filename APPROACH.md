@@ -157,3 +157,13 @@ This let me make small changes and quickly test if the yml was valid. I removed 
  - Included Travis gem
  - Ran bundle
  - Initialised Travis
+ - Got the error:
+ ```
+ The command "bundle exec rspec" exited with 127.
+ ```
+ So I ran it in the terminal and got:
+ ```
+ can't find executable rspec for gem rspec-core. rspec-core is not currently included in
+  the bundle, perhaps you meant to add it to your Gemfile?
+  ```
+ So I did, and now it works locally.
