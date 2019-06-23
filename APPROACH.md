@@ -129,4 +129,8 @@ This let me make small changes and quickly test if the yml was valid. I removed 
  Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.
  			Detected buildpacks: Ruby,Node.js
  ```
- 
+ - Ran
+ ```
+ gem update --system
+ bundle install
+ ```
