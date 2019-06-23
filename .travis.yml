@@ -1,14 +1,12 @@
 language: ruby
 rvm:
 - 2.6.0
-
 before_install:
- - gem update --system
- - gem install bundler
-
+- gem update --system
+- gem install bundler
 deploy:
   provider: heroku
   api_key:
-    secure: 07ad58f2-a88b-4a7d-aa30-2dbdb9d47183
+    secure: m3shQE0zipsbQseaopaArDTxkQUSnJVQFPsloibKGfgQxO7qDkU0myYGPm4t5X2hwmmlynWr+c6OaRyBuQkjW+xQw2gAI2AvqkV3DcLSfYY0wysanAk5w80kj3bwg4D1hD/0IJuUWKlXjZ1jWxdYgTRp6PoGKsPtu6iFFTw4SwHAL1cCqoAQrDazhaBJfKVMgy+S+jXHhY58n/p2EbUIXydrE+WrOnkM5UQF3gu/lRo9hJLWMys26prXbE9D/Wr0zC9341+cJn4jIyOQL1PALvtnCDBWRGGGZLiJS99Zpva7oTAGGj2va+/Va8Lp/NDc7lS+mSPI9gkVT0AgRxmAp/Vg6Kl5QipoeN/Z/rdodCuhbzQe0YUupR5upnMDMAo20X9i3kPEwy4BRuzvAlvH/VrqSkZPeP41ErYk9eG4MRmAX4f1iWf0kBuQ6nV+20tShOV7cXBjwa3Oa7TKv95Zgn1VR9NWqzP8dQLFx23Ve+PpZ/vObBFc+T//cdbsVgROkuaeEH+4KVm5zxxDcpWhexsFWS97eiUjqA2DLO0DS273Pnp4N+kogPysgHv5mursYIBmhPHD7wZOM3EnVbkXarVRP0CULwoN44iAaww5K3WeiLomF57iRpmDFvE1Cz0e29/PIHgYr8cj57W8T/NNbHgHYNn5smQRl2ATqhRgUgE=
   on:
     repo: n3ttl3t/instagram-challenge
