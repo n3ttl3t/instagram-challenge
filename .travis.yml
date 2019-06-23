@@ -8,5 +8,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 07ad58f2-a88b-4a7d-aa30-2dbdb9d47183
+  app: instagram-challenge-n3ttl3t
   on:
     repo: n3ttl3t/instagram-challenge
